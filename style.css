@@ -1,100 +1,85 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 body {
-  background: #fef9f4;
-  color: #421313;
-  line-height: 1.6;
+    background: #fef9f4;
+    color: #421313;
+    line-height: 1.6;
+    background: #FFE4CF
 }
 
 header {
-  background: #fff;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #e0d6cf;
+    background: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e0d6cf;
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 1.3rem;
-  color: #e3362c;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #e3362c;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
 }
 
 nav a {
-  text-decoration: none;
-  color: #421313;
-  font-weight: bold;
+    text-decoration: none;
+    color: #021887;
+    font-weight: bold;
+}
+
+section ul{
+     margin: 20px 0 0 30px;
 }
 
 .hero {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 3rem 2rem;
-  background: #fff0eb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 2rem;
 }
 
 .hero-text {
-  flex: 1;
-  padding-right: 2rem;
+    flex: 1;
+    padding-right: 2rem;
 }
 
 .hero img {
-  width: 300px;
-  border-radius: 8px;
+    width: 300px;
+    border-radius: 8px;
 }
 
 .section {
-  padding: 3rem 2rem;
-}
-
-.red-bg {
-  background-color: #e3362c;
-  color: white;
-}
-
-.light-bg {
-  background-color: #f9e6df;
+    padding: 3rem 2rem;
 }
 
 .mentoras {
-  display: flex;
-  gap: 2rem;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: #fff;
-  border: 2px solid #e0d6cf;
-  padding: 1rem;
-  border-radius: 12px;
-  text-align: center;
-  width: 200px;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .card img {
-  width: 100%;
-  border-radius: 8px;
+    width: 100%;
+    border-radius: 8px;
 }
 
 footer {
-  background: #421313;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+    background: #FF4309;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
