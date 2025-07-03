@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fef9f4;
+  color: #421313;
+  line-height: 1.6;
+}
+
+header {
+  background: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e0d6cf;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #e3362c;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #421313;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background: #fff0eb;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.hero img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.section {
+  padding: 3rem 2rem;
+}
+
+.red-bg {
+  background-color: #e3362c;
+  color: white;
+}
+
+.light-bg {
+  background-color: #f9e6df;
+}
+
+.mentoras {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #e0d6cf;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 200px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background: #421313;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
