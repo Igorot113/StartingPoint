@@ -5,8 +5,12 @@
 }
 header{
     display: flex;
+    padding-bottom: 10px;
 }
-img{
+hr{
+    border-color: #FF4309;
+}
+header img{
     max-width: 100px;
     max-height: 100px;
     width: auto;
@@ -30,4 +34,50 @@ a {
 a:hover{
     text-decoration: underline;
     color: #FF4309;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 50px;
+}
+.container h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FF4309;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.imagem{
+    display: flex;
+}
+.imagem img{
+    width: auto;
+    height: 300px;
+    border: 2px solid #FF4309;
+    border-radius: 5px;
+}
+.texto-img{
+    display: flex;
+    margin-left: 90px;
+    width: 400px;
+}
+.divisoria{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+.divisoria{
+    background: #FF4309;
+}
+.divisoria ul{
+    background: #FF4309;
+    color: white;
+}
+.divisoria li{
+    background: #FF4309;
 }
