@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #fef9f4;
+  background: #ffe4cf;
   color: #421313;
   line-height: 1.6;
 }
@@ -22,7 +22,7 @@ a {
     color: #FF4309;
 }
 header {
-  background: #fff;
+  background: white;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,7 @@ header {
   border-bottom: 2px solid #e0d6cf;
 }
 .section {
- background: #ffe4cf;;
+ background: #ffe4cf;
 }
 
 .logo {
@@ -118,7 +118,7 @@ nav a {
 }
 
 .light-bg {
-  background-color: #f9e6df;
+  background-color: #ffe4cf;
 }
 
 .mentoras {
@@ -126,11 +126,12 @@ nav a {
   gap: 2rem;
   margin-top: 2rem;
   flex-wrap: wrap;
+  background: #ffe4cf;
 }
 
 .card {
   margin: 0px;
-  background: #fff;
+  background: white;
   border: 2px solid #e0d6cf;
   padding: 1rem;
   border-radius: 12px;
@@ -143,11 +144,11 @@ nav a {
   margin-bottom: 20px;
 }
 footer {
-  background: #421313;
+  background: #FF4309;
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .container{
@@ -198,4 +199,7 @@ footer {
 }
 .divisoria li{  
     background: #FF4309;
+}
+.hero{
+  background: #ffe4cf;
 }
