@@ -129,19 +129,19 @@ nav a {
 }
 
 .card {
+  margin: 0px;
   background: #fff;
   border: 2px solid #e0d6cf;
   padding: 1rem;
   border-radius: 12px;
-  text-align: center;
   width: 200px;
 }
-
-.card img {
-  width: 100%;
-  border-radius: 8px;
+.card h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
-
 footer {
   background: #421313;
   color: white;
@@ -187,10 +187,10 @@ footer {
     justify-content: center;
     padding: 30px;
     margin-top: 20px;
+    font-size: 20px;
 }
 .divisoria{
     background: #FF4309;
-    size: 50px;
 }
 .divisoria ul{
     background: #FF4309;
