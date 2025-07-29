@@ -6,9 +6,11 @@
 }
 
 body {
+  margin: 0;
   background: #ffe4cf;
   color: #421313;
   line-height: 1.6;
+  padding-top: 60px;
 }
 ul{
     display: flex;
@@ -27,6 +29,12 @@ header {
   justify-content: space-around;
   align-items: center;
   border-bottom: 2px solid #e0d6cf;
+  width: 100%;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2)
 }
 .section {
  background: #ffe4cf;
