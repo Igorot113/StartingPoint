@@ -110,9 +110,9 @@ nav a {
 .flex{
   display: flex;
   justify-content: center;
-  gap: 200px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  gap: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .red-bg {
@@ -361,11 +361,12 @@ list-style: none;
 
 .teste-txt{
   float: left;
-  font-size: 20px;
-  width: 490px;
+  width: 600px;
+
 }
 
 .teste-txt p {
+  font-size: 18px;
   margin-bottom: 30px;
   margin-top: 8px;
   margin-left: 6px;
