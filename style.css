@@ -223,7 +223,7 @@ footer {
 }
 
 .plano {
-  background: white;
+background-color: #f9f9f9;
   border-radius: 12px;
   padding: 20px;
   width: 350px;
@@ -248,36 +248,44 @@ footer {
 .planos-org h3 {
   margin-bottom: 10px;
 }
+
+.planos-org h1 {
+  font-size: 40px;
+}
+
+.planos-org h2 {
+  margin-bottom: 35px;
+  font-size: 30px;
+}
 .planos-org ul {
 list-style: none;
 }
 
 .planos-org li {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .btn-laranja {
   background-color: #FF4309;
   color: white;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: bold;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 700;
   border: none;
-  border-radius: 12px;
+  border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
   transition: all 0.3s ease;
 }
 
 .btn-laranja:hover {
-  background-color: #e03c08;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+  background-color: #e23a08;
+  transform: scale(1.05);
 }
 
 .btn-laranja:active {
-  transform: translateY(1px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 .plano-center {
