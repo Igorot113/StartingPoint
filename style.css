@@ -106,7 +106,13 @@ nav a {
   margin-left: 200px;
   margin-right: 250px;
   background-color: #FFE4CF ;
-  
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .red-bg {
@@ -351,4 +357,19 @@ list-style: none;
 
 .plano-center h1 {
   margin-bottom: 20px;
+}
+
+.teste-txt{
+  float: left;
+  font-size: 20px;
+  width: 490px;
+}
+
+.teste-txt p {
+  margin-bottom: 30px;
+  margin-top: 8px;
+  margin-left: 6px;
+}
+.teste-img {
+  float: right;
 }
