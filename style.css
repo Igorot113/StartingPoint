@@ -59,7 +59,7 @@ nav a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 1000px;
+  height: 1000px; 
 }
 .container {
   display: flex;
@@ -462,7 +462,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    margin-top: 130px;
     background-color: #ffe4cf;
     padding: 2rem;
 }
@@ -534,7 +534,7 @@ footer {
 .register-form .btn-laranja,
 #forgot-password-form .btn-laranja {
     width: 100%;
-    padding: 1rem;
+    
     font-size: 1.25rem;
 }
 
@@ -593,7 +593,6 @@ footer {
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
-    padding: 2rem;
     border: 1px solid #888;
     width: 90%;
     max-width: 400px;
