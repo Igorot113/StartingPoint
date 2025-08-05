@@ -12,3 +12,18 @@ document.addEventListener("DOMContentLoaded", function() {
     carousel.scrollLeft -= cardWidth;
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const carouselParceiros = document.getElementById("parceirosCarousel");
+  const prevBtnParceiros = document.getElementById("prevBtnParceiros");
+  const nextBtnParceiros = document.getElementById("nextBtnParceiros");
+  const cardWidthParceiros = 270;
+  
+  nextBtnParceiros.addEventListener("click", () => {
+    carouselParceiros.scrollLeft += cardWidthParceiros;
+  });
+
+  prevBtnParceiros.addEventListener("click", () => {
+    carouselParceiros.scrollLeft -= cardWidthParceiros;
+  });
+});

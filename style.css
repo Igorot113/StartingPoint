@@ -151,6 +151,8 @@ nav a {
   margin-bottom: 15px;
 }
 
+/*Começo carossel*/
+
 .carousel-container {
   position: relative;
   display: flex;
@@ -214,6 +216,25 @@ nav a {
   text-align: center;
 }
 
+.parceiros-carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.parceiros-carousel::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  min-width: 270px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+/*Fim carossel*/
+
 .mentoras2 {
   display: flex;
   gap: 2rem;
@@ -236,6 +257,7 @@ nav a {
   padding: 1rem;
   box-sizing: border-box;
 }
+
 footer {
   background: #ff4309;
   color: white;
