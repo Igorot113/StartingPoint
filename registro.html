@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html"><img src="image/Logo.png" alt="" /></a></div>
-      <nav>
-        <ul>
-          <li><a href="#funciona">Como Funciona</a></li>
-          <li><a href="#palestras">Palestras</a></li>
-          <li><a href="#parceiros">Parceiros</a></li>
-          <li><a href="registro.html">Registrar</a></li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="image/Logo.png" alt="" /></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#funciona">Como Funciona</a></li>
+        <li><a href="#palestras">Palestras</a></li>
+        <li><a href="#parceiros">Parceiros</a></li>
+        <li><a href="registro.html">Registrar</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="login-section" id="login">
+  <section class="login-section login" id="login">
     <div class="login-container">
       <h2>Acesse sua conta</h2>
       <form class="login-form">
@@ -44,5 +43,48 @@
       </form>
     </div>
   </section>
+
+  <section class="register-section hidden register" id="registrar">
+    <div class="login-container">
+      <h2>Crie sua conta</h2>
+      <form class="register-form">
+        <div class="form-group">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required />
+        </div>
+        <div class="form-group">
+          <label for="email-register">E-mail</label>
+          <input type="email" id="email-register" name="email" placeholder="Digite seu e-mail" required />
+        </div>
+        <div class="form-group">
+          <label for="senha-register">Senha</label>
+          <input type="password" id="senha-register" name="senha" placeholder="Crie uma senha" required />
+        </div>
+        <button type="submit" class="btn-laranja">Criar Conta</button>
+        <p>Já tem uma conta? <a href="#" class="back-to-login">Entrar</a></p>
+      </form>
+    </div>
+  </section>
+
+  <div id="forgot-password-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h3>Recuperar Senha</h3>
+      <p>Digite seu e-mail e enviaremos um link para você redefinir sua senha.</p>
+      <form id="forgot-password-form">
+        <div class="form-group">
+          <label for="forgot-email">E-mail</label>
+          <input type="email" id="forgot-email" name="email" required />
+        </div>
+        <button type="submit" class="btn-laranja">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="register_footer">
+    <p>©️ 2025 Ponto de Partida. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
