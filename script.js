@@ -10,12 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
       carousel.scrollLeft += cardWidth;
     });
 
-    prevBtn.addEventListener("click", () => {
-      carousel.scrollLeft -= cardWidth;
-    });
-  }
+  prevBtn.addEventListener("click", () => {
+    carousel.scrollLeft -= cardWidth;
+  });
+}});
 
-  // Carrossel de parceiros
+
+document.addEventListener("DOMContentLoaded", function() {
   const carouselParceiros = document.getElementById("parceirosCarousel");
   const prevBtnParceiros = document.getElementById("prevBtnParceiros");
   const nextBtnParceiros = document.getElementById("nextBtnParceiros");
