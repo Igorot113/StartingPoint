@@ -308,7 +308,9 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding: 20px 190px;
+  padding: 20px;
+  margin-left: 500px;
+  margin-right: 350px;
 }
 
 .footerBox ul,
