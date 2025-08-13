@@ -61,10 +61,10 @@ nav a {
 }
 
 .inicio {
-  background-image: url(image/imgfundostarting.jpeg);
+  background-image: url(image/startingimg.jpeg);
   /*background-image: url(image/online-teach.jpg);*/
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: ;
   background-size: cover;
   height: 1000px;
 }
